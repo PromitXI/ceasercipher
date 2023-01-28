@@ -1,0 +1,22 @@
+make 2 lists one of Alphabets one of Special characters excluding space.
+
+this is the encrypt function, take in the word as the input parameter
+
+input from user will be string--> make that a list
+take an integer input for the encryption,
+run a for loop over the user input list
+take every character check if it belongs to the special character list
+else find that character in the Alphabet list and find its index
+add the shift to the index
+id the total after addition is >27
+take out that diff( eg 30 is the sum then 30-27=3)
+take the alphaphabet from the beginning of the list using the difference amount
+
+take the aslphabet from that index  in the alphabet list and replace the index position in the user input
+
+will return list after joining
+
+
+Decode function:
+
+Will run the same thing but instead of adding the index in the alphabet list will Substract from the alphabet list.
